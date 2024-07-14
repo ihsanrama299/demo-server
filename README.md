@@ -1,2 +1,4 @@
-#Api endpoint
-https://demo-server-production.up.railway.app/api/
+### Api endpoints
+
+Movies:  
+https://demo-server-production.up.railway.app/api/movies

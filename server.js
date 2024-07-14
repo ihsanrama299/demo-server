@@ -4,6 +4,12 @@ const express = require("express");
 
 const app = express();
 app.use(express.json());
+app.use(
+  cors({
+    origin: "*",
+    credentials: true,
+  })
+);
 
 //database connection
 mongoose.connect(process.env.MONGO_URI);
